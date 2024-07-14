@@ -5,3 +5,38 @@
 }
 
 /* Start coding here */
+:root {
+  --BrandingColor:#ff7f50;
+  --SecondaryColor:cornsilk;
+  --HighlightColor:#d2691e;
+  --MutedColor:#a9a9a9;
+
+  --MarginLevel1:1px;
+  --MarginLevel2:5px;
+  --MarginLevel3:10px;
+  --MarginLevel4:15px;
+  --MarginLevel5:20px;
+
+  --PaddingLevel1:1px;
+  --PaddingLevel2:5px;
+  --PaddingLevel3:10px;
+  --PaddingLevel4:15px;
+  --PaddingLevel5:20px;
+
+  --FontSmall:12px;
+  --FontMedium:16px;
+  --FontLarge:20px;
+  --FontExtraLarge:30px;
+  --FontDoubleExtraLarge:50px;
+  --FontTripleExtraLarge:100px;
+}
+
+.introduction {
+  background-color: var(--SecondaryColor);
+  padding: var(--PaddingLevel5);
+}
+
+.introduction h1 {
+  color: var(--BrandingColor);
+  font-size: var(--FontTripleExtraLarge);
+}
